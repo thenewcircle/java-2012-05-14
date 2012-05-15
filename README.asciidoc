@@ -15,3 +15,15 @@ or
 
 or download a Zip archive by clicking the link above.
 
+== Books
+
+* Bloch, Joshua. _Effective Java._ 2^nd^ ed. Upper Saddle River, NJ: Addison-Wesley, 2008.
+
+* Freeman, Eric, Elisabeth Robson, et al. _Head First Design Patterns._ Sebastopol, Calif.: O'Reilly, 2004.
+
+* Horstmann, Cay S., and Gary Cornell. _Core Java: Volume I, Fundamentals._ 8^th^ ed. Upper Saddle River, NJ: Prentice Hall/Sun Microsystems Press, 2007.
+
+* Horstmann, Cay S., and Gary Cornell. _Core Java: Volume II, Advanced Features._ 8^th^ ed. Upper Saddle River, NJ: Prentice Hall/Sun Microsystems Press, 2008.
+
+* Sierra, Kathy, and Bert Bates. _Head First Java._ 2^nd^ ed. Sebastopol, Calif.: O'Reilly, 2005.
+
