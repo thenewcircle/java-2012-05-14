@@ -14,8 +14,8 @@ public class CheckingTest1 {
 			= new CheckingAccount(customer1);
 		
 		// Create the second CheckingAccount belonging to customer2
-		CheckingAccount account2
-			= new CheckingAccount(customer2, 5000.0, "Joint");
+		SavingsAccount account2
+			= new SavingsAccount(customer2, 5000.0, "Joint savings");
 		
 		// Perform transactions on the first account
 		account1.credit(600);
@@ -29,21 +29,17 @@ public class CheckingTest1 {
 		account2.transferTo(account1, 1000);
 		
 		// Report information for the first account
-		System.out.println("Information for account " + account1.getName());
-		System.out.println("Owner: "
-				+ account1.getCustomer().getFirstName() + " "
-				+ account1.getCustomer().getLastName());
-		System.out.println("Balance: " + account1.getBalance());
+		printAccount(account1);
 		
 		// Print a blank line
 		System.out.println();
 		
 		// Report information for the second account
-		System.out.println("Information for account " + account2.getName());
-		System.out.println("Owner: "
-				+ account2.getCustomer().getFirstName() + " "
-				+ account2.getCustomer().getLastName());
-		System.out.println("Balance: " + account2.getBalance());
+		printAccount(account2);
+	}
+
+	private static void printAccount(DepositAccount account) {
+		System.out.println(account);
 	}
 
 }
